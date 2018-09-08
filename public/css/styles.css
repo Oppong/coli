@@ -1,0 +1,182 @@
+html, body {
+                background-color: #fff;
+               /* font-family: 'Open Sans', sans-serif;*/
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+             
+            }
+
+
+/* Heading */
+h1, h2, h3, h4, h5, h6 {
+    color: #555555;
+    font-weight: 300;
+    margin-top: 0px;
+    line-height: 1.5;
+    margin-bottom: 7px;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p  {
+   
+   font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #555;
+}
+
+
+/* ----------------- Bannner and navigatiion ---------------*/
+
+.display-5 {
+  font-size:5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: -350px;
+  text-shadow: -1px 1px 4px rgba(0,0,0,0.8) -1px 1px 4px rgba(0,0,0,0.8);
+  color: white;
+  letter-spacing: 5px;
+}
+
+.text-p {
+    text-shadow: -1px 1px 4px rgba(0,0,0,0.8) -1px 1px 4px rgba(0,0,0,0.8);
+    font-size: 1.1rem;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.para {
+   
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.btnn {
+     padding: 6px 14px;
+    color: white;
+    font-weight: bold;
+    background-color:#fec20c;
+}
+
+.btnn-rep {
+
+    padding: 6px 14px;
+    color: white;
+    font-weight: bold;
+    background-color: #2BBBAD;
+}
+
+.btnn:hover {
+    background-color: #0B9B8D;
+
+}
+
+
+.comment-reply {
+
+    display: none;
+}
+
+
+@media all and (max-width: 320px) {
+    .carousel-inner img {
+        height: 250px;
+    }
+
+    .display-5 {
+        font-size: 1.2rem;
+        margin-top: -50px;
+    }
+
+    .text-p {
+
+        font-size: 0.8rem;
+    }
+} 
+
+@media all and (min-width: 321px) and (max-width: 500px) {
+    .carousel-inner img {
+        height: 300px;
+    }
+
+    .display-5 {
+        font-size: 1.6rem;
+        margin-top: 5px;
+    }
+
+     .text-p {
+
+        font-size: 1rem;
+    }
+}
+
+@media all and (min-width: 501px) and (max-width: 767px) {
+    .carousel-inner img {
+        height: 300px;
+    }
+
+    .display-5 {
+        font-size: 1.4rem;
+        margin-top: -150px;
+    }
+
+     .text-p {
+
+        font-size: 1.2rem;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .carousel-inner img {
+        height: 300px;
+    }
+
+    .display-5 {
+        font-size: 1.9rem;
+        margin-top: -150px;
+    }
+}
+
+i {
+
+    font-size: 30px;
+    color: #2BBBAD;
+}
+
+
+ .links > a {
+                color: #636b6f;
+                padding: 0 25px;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
